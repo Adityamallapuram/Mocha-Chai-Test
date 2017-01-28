@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/Adityamallapuram/Mocha-Chai-Test#readme",
   "dependencies": {
-    "mocha": "*"
+    "mocha": "*",
     "body-parser": "^1.15.1",
     "chai": "*",
     "express": "^4.13.4",
