@@ -4,7 +4,7 @@
   "description": "Integration test using SuperTest",
   "main": "index.js",
   "scripts": {
-    "test": ""
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Adityamallapuram/Mocha-Chai-Test#readme",
   "dependencies": {
+    "mocha": "*"
     "body-parser": "^1.15.1",
     "chai": "*",
     "express": "^4.13.4",
