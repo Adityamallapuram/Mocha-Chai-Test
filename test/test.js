@@ -9,7 +9,7 @@ var date = new Date();
 
 describe('Test scenario', function() {
 
-    it('should Login, add zone, find zone, check Balance, add booking, add payment, get Bookings History By UserId, Checkin, get vehicles list' function(done) {
+    it('should Login, add zone, find zone, check Balance, add booking, add payment, get Bookings History By UserId, Checkin, get vehicles list', function(done) {
       this.timeout(1000000);
 
       request(app)
