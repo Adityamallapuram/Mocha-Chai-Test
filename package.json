@@ -4,7 +4,7 @@
   "description": "Integration test using SuperTest",
   "main": "test.js",
   "scripts": {
-    "test": "mocha --recursive -R xunit test/ > test-reports.xml"
+    "test": "mocha --reporter mocha-junit-reporter"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,8 @@
     "chai": "*",
     "express": "^4.13.4",
     "express-validator": "^2.20.5",
-    "supertest": "*"
+    "supertest": "*",
+    "mocha-junit-reporter":"*"
   },
   "engines": {
     "node": "*",
