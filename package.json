@@ -4,7 +4,7 @@
   "description": "Integration test using SuperTest",
   "main": "test.js",
   "scripts": {
-    "test": "mocha --reporter mochawesome"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -25,8 +25,8 @@
     "chai": "*",
     "express": "^4.13.4",
     "express-validator": "^2.20.5",
-    "supertest": "*",
-    "mochawesome-report": "*"
+    "supertest": "*"
+    
   },
   "engines": {
     "node": "*",
