@@ -1,4 +1,4 @@
-var app = 'https://dev-api.divrt.co';
+var app = 'https://test-api.divrt.co';
 var chai = require('chai');
 var request = require('supertest');
 //var describe =require('mocha');
