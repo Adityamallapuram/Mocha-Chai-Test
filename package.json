@@ -4,7 +4,7 @@
   "description": "Integration test using SuperTest",
   "main": "test.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --recursive -R xunit test/ > test-reports.xml"
   },
   "repository": {
     "type": "git",
